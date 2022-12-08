@@ -1,31 +1,28 @@
 <div align="center">
 
-# CC-Template-Repository
+# Player Damage Area
 
-A ... component that does x.
+[![Build Status](https://github.com/ManticoreGamesInc/CC-Player-Damage-Area/workflows/CI/badge.svg)](https://github.com/ManticoreGamesInc/CC-Player-Damage-Area/actions/workflows/ci.yml?query=workflow%3ACI%29)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ManticoreGamesInc/CC-Player-Damage-Area?style=plastic)
 
-[![Build Status](https://github.com/Core-Team-META/CC-Template-Repository/workflows/CI/badge.svg)](https://github.com/Core-Team-META/CC-Template-Repository/actions/workflows/ci.yml?query=workflow%3ACI%29)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Core-Team-META/CC-Template-Repository?style=plastic)
-
-![TitleCard](/Screenshots/REPLACE_ME.png)
+![Preview](/Screenshots/Main.png)
 
 </div>
 
+## Finding the Component
+
+This component can be found under the **CoreAcademy** account on Community Content.
+
 ## Overview
 
-Description
+This component can be used to apply damage over time to the player when they are in an area. The area can be resized and moved easily, and multiple areas can be created.
 
-## Setup
+## How to use
 
-Setup
+Drag the template into the Hierarchy and place it where you want the damage area to be.
 
-## Credits
+This component works well with the Player Healthbar component so the player can see how much health they have.
 
-- List
-- of
-- people
+- DamagePerSecond
 
-## How to use this Template
-
-- Replace every mention of `CC-Template-Repository` with your new repository name.
-- Replace every mention of `REPLACE_ME` with the correct values.
+	The amount of damage the player will receive per second.

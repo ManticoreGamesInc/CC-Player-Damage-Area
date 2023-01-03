@@ -2,7 +2,7 @@ Assets {
   Id: 4581486149908487110
   Name: "Virtual Folders"
   PlatformAssetType: 30
-  SerializationVersion: 121
+  SerializationVersion: 123
   VirtualFolderSetAsset {
     Folders {
       VirtualFolderPath: "Player Health"
